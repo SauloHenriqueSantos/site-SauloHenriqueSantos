@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 1%;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Play', sans-serif;
+  background: url("../img/roxo.jpg") no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color: darkviolet;
+}
+
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px black;
+  white-space: pre-wrap;
+}
+
+.box {
+  background: #111113;
+  padding: 3% 5%;
+  box-shadow: 1px 2px 16px black;
+  border-radius: 40px;
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+.profile-pic {
+  border-radius: 100%;
+  margin: 0 auto 2rem auto;
+  max-width:230px;
+  max-height:230px;
+  margin-top: 10px;
+  animation: fromTop .7s .2s backwards;
+  box-shadow: 0 5px 4px black;
+}
+
+.profile span {
+  font-size: 20px;
+  color: #edecee;
+}
+
+.profile p {
+  font-size: 18px;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  color: #6d6d6d;
+}
+
+.social-menu ul{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 8px;
+}
+
+.social-menu ul li .fab{
+  font-size: 35px;
+  line-height: 60px;
+  transition: .3s;
+  color: #edecee;
+}
+
+.social-menu ul li .fab:hover{
+  color: #edecee;
+}
+
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  background-color: #2a2a2a;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px black;
+  
+}
+
+.social-menu ul li a:hover{
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: #353051;
+}
+.social-menu ul li:nth-child(2) a:hover{
+  background-color: #353051;
+}
+.social-menu ul li:nth-child(3) a:hover{
+  background-color: #353051;
+}
+.social-menu ul li:nth-child(4) a:hover{
+  background-color: #353051;
+}
+.social-menu ul li:nth-child(5) a:hover{
+  background-color: #353051;
+}
+
+
+
+.copyright {
+  font-size: 25px;
+  color: #edecee;
+  text-shadow: 0px 2px 2px black;
+  margin: 40vh 0;
+  padding: 25px;
+}
